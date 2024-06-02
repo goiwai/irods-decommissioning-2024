@@ -2,6 +2,8 @@
 
 [[_TOC_]]
 
+[TOC]
+
 I am writing to notify whom it may concern about decommissioning the following iRODS (*1) services hosted at KEK.
 
 - gsr03.cc.kek.jp (Zone: KEK-T2K)
