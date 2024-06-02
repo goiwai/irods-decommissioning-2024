@@ -49,4 +49,4 @@ Also, it should be noted that the time is now in the transition phase X.509 cert
 - <https://operations-portal.egi.eu/vo/view/voname/t2k.org>
 - <https://operations-portal.egi.eu/vo/view/voname/hyperk.org>
 
-Lastly, if you have any questions or comments, [please feel free to create the issue and let us know](/-/issues).
+Lastly, if you have any questions or comments, [please feel free to create the issue and let us know](https://gitlab.cern.ch/giwai/irods-decommissioning-2024/-/issues).
