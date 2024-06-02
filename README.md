@@ -1,5 +1,12 @@
 ## Decommissioning of KEK's iRODS services for T2K and Hyper-Kamiokande <!-- omit in toc -->
 
+[/issues](/issues)
+
+[/-/issues](/-/issues)
+
+[../issues](../issues)
+
+
 [[_TOC_]]
 
 [TOC]
