@@ -1,4 +1,6 @@
-Decommissioning of KEK's iRODS services for T2K and Hyper-Kamiokande
+## Decommissioning of KEK's iRODS services for T2K and Hyper-Kamiokande <!-- omit in toc -->
+
+[[_TOC_]]
 
 I am writing to notify whom it may concern about decommissioning the following iRODS (*1) services hosted at KEK.
 
