@@ -42,8 +42,10 @@ iRODS for T2K has a zone KEK-T2K, which consists of two Storage Resources: hpssR
 
 |　Zone　  | Storage Resource | SURL        | WebDAV transfer URL |
 | ------- | ---------------- | --------------- |-------------- |
-| KEK-T2K | hpssResc         | srm://kek2-se01.cc.kek.jp:8444/srm/managerv2?SFN=/irods/t2k.org | <https://t2k-webdav.cc.kek.jp/irods/t2k.org/><br/><davs://t2k-webdav.cc.kek.jp/irods/t2k.org/> |
-| KEK-T2K | backupResc       | srm://kek2-se01.cc.kek.jp:8444/srm/managerv2?SFN=/irods/disk/t2k.org | <https://t2k-webdav.cc.kek.jp/irods/disk/t2k.org/><br/><davs://t2k-webdav.cc.kek.jp/irods/disk/t2k.org/> |
+| KEK-T2K | hpssResc         | srm://kek2-se01.cc.kek.jp:8444/srm/managerv2?SFN=/irods/t2k.org | <https://t2k-webdav.cc.kek.jp/irods/t2k.org/> |
+| | | | <davs://t2k-webdav.cc.kek.jp/irods/t2k.org/> |
+|  | backupResc       | srm://kek2-se01.cc.kek.jp:8444/srm/managerv2?SFN=/irods/disk/t2k.org | <https://t2k-webdav.cc.kek.jp/irods/disk/t2k.org/> |
+| | | | <davs://t2k-webdav.cc.kek.jp/irods/disk/t2k.org/> |
 
 [^surl]: Site URL
 
@@ -53,7 +55,8 @@ For the zone KEK-HK, authenticated users are allowed read-only access to the exi
 
 |　Zone　  | Storage Resource | SURL        | WebDAV transfer URL |
 | ------- | ---------------- | --------------- |-------------- |
-| KEK-HK  | hpssResc         | srm://kek2-se01.cc.kek.jp:8444/srm/managerv2?SFN=/irods/hyperk.org | <https://hyperk-webdav.cc.kek.jp/irods/hyperk.org/><br/><davs://hyperk-webdav.cc.kek.jp/irods/hyperk.org/>　|
+| KEK-HK  | hpssResc         | srm://kek2-se01.cc.kek.jp:8444/srm/managerv2?SFN=/irods/hyperk.org | <https://hyperk-webdav.cc.kek.jp/irods/hyperk.org/> |
+| | | | <davs://hyperk-webdav.cc.kek.jp/irods/hyperk.org/>　|
 
 ### VO enrollment
 
