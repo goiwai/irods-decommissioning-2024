@@ -5,7 +5,7 @@
   - [Friday, August 30th, 2024](#friday-august-30th-2024)
 - [Accessing iRODS data with SRM and WebDAV protocols through VOMS authentication](#accessing-irods-data-with-srm-and-webdav-protocols-through-voms-authentication)
   - [Alternative access points for the zone: KEK-T2K](#alternative-access-points-for-the-zone-kek-t2k)
-  - [Alternative access point for the zone: KEK-HK](#alternative-access-point-for-the-zone-kek-hk)
+  - [Alternative access points for the zone: KEK-HK](#alternative-access-points-for-the-zone-kek-hk)
   - [VO enrollment](#vo-enrollment)
 
 Following *Storage Resources*[^resc] in [iRODS](https://irods.org/) *Zones*[^zone] for T2K and Hyper-Kamiokande experiments hosted at KEK will be decommissioned by the end of August 2024 after decades of operation for SRB, followed by iRODS. We preserve the existing data and offer data access in alternative ways, such as SRM and HTTPS, through VOMS authentication. See below for more details about [accessing iRODS data with SRM and WebDAV protocols through VOMS authentication](#accessing-irods-data-with-srm-and-webdav-protocols-through-voms-authentication).
@@ -26,7 +26,7 @@ The following timeline will be applied for the decommissioning steps:
 
 ### Monday, June 10th, 2024
 
-- Announcement: Creating a [repository](https://gitlab.cern.ch/giwai/irods-decommissioning-2024) at gitlab.cern.ch and [EGI Broadcast](https://operations-portal.egi.eu/broadcast/archive/9999).
+- Announcement: Creating a [repository](https://gitlab.cern.ch/giwai/irods-decommissioning-2024) at gitlab.cern.ch and [EGI Broadcast](https://operations-portal.egi.eu/broadcast/archive/todo-fix-here).
 - The iRODS services will be provided in a read-only mode until the end of the day of services. Please remember that storing new data or creating a new account on or after this date is no longer possible.
 - From this date, alternative access protocols such as SRM and WebDAV are available through VOMS authentication for data access stored in iRODS on a read-only basis.
 
@@ -47,7 +47,7 @@ iRODS for T2K has a zone KEK-T2K, which consists of two Storage Resources: hpssR
 
 [^surl]: Site URL
 
-### Alternative access point for the zone: KEK-HK
+### Alternative access points for the zone: KEK-HK
 
 For the zone KEK-HK, authenticated users are allowed read-only access to the existing data with SURL and transfer URL below:
 
@@ -57,7 +57,7 @@ For the zone KEK-HK, authenticated users are allowed read-only access to the exi
 
 ### VO enrollment
 
-Since WLCG Storage Elements have different AuthNZ mechanisms from iRODS, the VO enrollment must be the first thing to do than anything. If you are eligible to be a VO member, take the following links for t2k.org and hyperk.org with an X.509 certificate imported web browser. Once accredited as a member of the VO, you can access the alternative access points shown in the tables above (for [KEK-T2K](#alternative-access-point-for-the-zone-kek-t2k) and [KEK-HK](#alternative-access-point-for-the-zone-kek-hk)).
+Since WLCG Storage Elements have different AuthNZ mechanisms from iRODS, the VO enrollment must be the first thing to do than anything. If you are eligible to be a VO member, take the following links for t2k.org and hyperk.org with an X.509 certificate imported web browser. Once accredited as a member of the VO, you can access the alternative access points shown in the tables above (for [KEK-T2K](#alternative-access-points-for-the-zone-kek-t2k) and [KEK-HK](#alternative-access-points-for-the-zone-kek-hk)).
 
 - t2k.org: <https://voms.gridpp.ac.uk:8443/voms/t2k.org/register/start.action>
 - hyperk.org: <https://voms.gridpp.ac.uk:8443/voms/hyperk.org/register/start.action>
@@ -71,3 +71,5 @@ Lastly, [please create the issue and let us know](https://gitlab.cern.ch/giwai/i
 
 Sincerely yours,
 Go Iwai -- Computing Research Centre, KEK
+
+----
