@@ -26,7 +26,7 @@ The following timeline will be applied for the decommissioning steps:
 
 ### Monday, June 10th, 2024
 
-- Announcement: Creating a [repository](https://gitlab.cern.ch/giwai/irods-decommissioning-2024) at gitlab.cern.ch and [EGI Broadcast](https://operations-portal.egi.eu/broadcast/archive/3034).
+- Announcement: Creating a [repository](https://github.com/goiwai/irods-decommissioning-2024) at github.com and [EGI Broadcast](https://operations-portal.egi.eu/broadcast/archive/3034).
 - The iRODS services will be provided in a read-only mode until the end of the day of services. Please remember that storing new data or creating a new account on or after this date is no longer possible.
 - From this date, alternative access protocols such as SRM and WebDAV are available through VOMS authentication for data access stored in iRODS on a read-only basis.
 
@@ -70,7 +70,7 @@ It should also be noted that the time is now in the transition phase X.509 certi
 - <https://operations-portal.egi.eu/vo/view/voname/t2k.org>
 - <https://operations-portal.egi.eu/vo/view/voname/hyperk.org>
 
-Lastly, [please create the issue and let us know](https://gitlab.cern.ch/giwai/irods-decommissioning-2024/-/issues) if you have any questions or comments.
+Lastly, [please create the issue and let us know](https://github.com/goiwai/irods-decommissioning-2024/issues) if you have any questions or comments.
 
 Sincerely yours,
 Go Iwai -- Computing Research Centre, KEK
